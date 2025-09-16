@@ -23,9 +23,9 @@ const Hero = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <button className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+          <a href="//github.com/m-huzaifashah" className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             View My Work
-          </button>
+          </a>
           <button className="px-8 py-3 border border-purple-400 rounded-full hover:bg-purple-400/10 transition-all duration-300">
             Download Resume
           </button>
@@ -35,7 +35,7 @@ const Hero = () => {
           <a href="https://github.com/m-huzaifashah" target='_blank' className="p-3 rounded-full bg-slate-800 hover:bg-purple-600 transition-all duration-300 transform hover:scale-110">
             <Github size={24} />
           </a>
-          <a href="#" className="p-3 rounded-full bg-slate-800 hover:bg-blue-600 transition-all duration-300 transform hover:scale-110">
+          <a href="https://pk.linkedin.com/" className="p-3 rounded-full bg-slate-800 hover:bg-blue-600 transition-all duration-300 transform hover:scale-110">
             <Linkedin size={24} />
           </a>
           <a href="mailto:mhuzaifahabibshah@gmail.com" className="p-3 rounded-full bg-slate-800 hover:bg-green-600 transition-all duration-300 transform hover:scale-110">

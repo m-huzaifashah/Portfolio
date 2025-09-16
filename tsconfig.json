@@ -2,12 +2,15 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "bundler",   // <--- important for Vite
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "allowJs": true,                  // <--- allow .js/.jsx
+    "checkJs": false,                 // <--- don’t type-check them
     "strict": true,
-    "types": ["node"],               // <--- so Node types like "path" work
-    "jsx": "react-jsx"
+    "types": ["node"],
+    "jsx": "react-jsx",
+    "noEmit": true
   },
   "include": ["src", "vite.config.ts"]
 }
