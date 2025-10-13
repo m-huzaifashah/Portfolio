@@ -4,9 +4,9 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Skill from "../components/Skill";
 import Projects from "../components/Projects";
-import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Certifications from '../components/Certifications';
 
 const Portfolio = () => {
   return (
@@ -17,7 +17,7 @@ const Portfolio = () => {
       <About />
       <Skill />
       <Projects />
-      <Experience />
+      <Certifications />
       <Contact />
       <Footer />
     </div>
